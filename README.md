@@ -5,7 +5,7 @@ Welcome to the ROBCO INDUSTRIES (TM) TERMLINK! This terminal emulator is inspire
 
 I recommend using 'Cool-retro-term' by Swordfish90: https://github.com/Swordfish90/cool-retro-term/tree/1.2.0
 
-The centre of the screen for the scri[t is set in the Terminal.py file line: 168.
+The centre of the screen for the script is set in the Terminal.py file line: 168.
 
 ## Features
 
@@ -23,7 +23,8 @@ The centre of the screen for the scri[t is set in the Terminal.py file line: 168
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/TrickyTaco11/RobCo-Terminal.git
+   [git clone https://github.com/TrickyTaco11/RobCo-Terminal.git]
+   (https://github.com/TrickyTaco11/RobCo-Terminal.git)
    ```
 2. **Navigate to the project directory**:
    ```
