@@ -5,7 +5,7 @@ Welcome to the ROBCO INDUSTRIES (TM) TERMLINK! This terminal emulator is inspire
 
 I recommend using 'Cool-retro-term' by Swordfish90: https://github.com/Swordfish90/cool-retro-term/tree/1.2.0
 
-The centre of the screen for the script is set in the 'Terminal.py' file line: 171.
+The centre of the screen for the script is set in the 'Terminal.py' file line: 173.
 
 ## Features
 
