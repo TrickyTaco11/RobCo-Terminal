@@ -5,17 +5,16 @@ Welcome to the ROBCO INDUSTRIES (TM) TERMLINK! This terminal emulator is inspire
 
 I recommend using 'Cool-retro-term' by Swordfish90: https://github.com/Swordfish90/cool-retro-term/tree/1.2.0
 
-The centre of the screen for the script is set in the Terminal.py file line: 168.
+The centre of the screen for the script is set in the 'Terminal.py' file line: 171.
 
 ## Features
 
-- **Password Management**: View and change the terminal password.
-- **Username Management**: View and change the terminal username.
-- **System Logs**: View and reset system logs.
-- **Error Directory**: Display a list of error codes from various files.
-- **Security Management**: Manage security settings and logs.
-- **Hacking Interface**: Simulate hacking attempts with a retro-style interface.
-- **Entry Logs**: View and manage entry logs.
+- **User Management**: View and change passwords, usernames, credentials, authorisation.
+- **System Log**: Logs every move you make so you are able to view at anytime, you can also reset the system log.
+- **Error Directory**: Display a list of error codes from the fallout series.
+- **Security Management**: Manage security settings and security logs.
+- **Hacking Interface**: Simulate hacking attempts with fallouts retro-style interface.
+- **Entry Logs**: View, create and clear entry logs just as you would in fallout.
 - **Help Menu**: Get instructions and information about using the terminal.
 - **Exit**: Safely exit the terminal application.
 
@@ -23,8 +22,7 @@ The centre of the screen for the script is set in the Terminal.py file line: 168
 
 1. **Clone the repository**:
    ```
-   [git clone https://github.com/TrickyTaco11/RobCo-Terminal.git]
-   (https://github.com/TrickyTaco11/RobCo-Terminal.git)
+   git clone https://github.com/TrickyTaco11/RobCo-Terminal.git
    ```
 2. **Navigate to the project directory**:
    ```
@@ -37,86 +35,60 @@ The centre of the screen for the script is set in the Terminal.py file line: 168
 
 ## Usage
 
-Upon running the script, you will be in a small section of the terminal where simple commands (still in progress) can be prompted... type 'help' for a list of commands (some may not function correctly). You can login on that same command line, once authenticated, you can navigate through various menus to manage entries, a custom missile silo inventory system: getting information from: https://www.armscontrol.org/factsheets/missiles, usernames, passwords, system logs, a normal terminal function, security settings, and perform hacking activities.
+Upon running the script, you will be in a small section of the terminal where simple commands (still in progress) can be prompted... type 'help' for a list of commands (some may not function correctly). You can login on that same command line, once authenticated, you can navigate through various menus to manage entries, a custom missile silo inventory system, usernames, passwords, system logs, a normal terminal function, security settings, and perform hacking activities.
+
+The custom missile system is a .txt file with a graph of missile silo inventories for each countries, all data is recieved from: : https://www.armscontrol.org/factsheets/missiles
+This is there just for aesthetics, not functional in anyway except for viewing different missile variants in specified countries (all public information).
 
 ### Main Menu Commands
 Some of the main menu commands:
 
-- **Password Management**:
-- **View password**: Displays the current password.
-- **Change password**: Prompts to enter a new password and saves it.
+**Settings**:
+- **Password**: View or change your password.
+- **Username**: View or change your username.
+- **Credential**: View or change your credentials.
+- **Clearance**: View your clearance (overseer, admin, ect...), which can be altered in the clearance.txt file
 
-- **Username Management**:
-- **View username**: Displays the current username.
-- **Change Username**: Prompts to enter a new username and saves it.
-
-- **System Logs**:
+**System Logs**:
 - **View system-logs**: Displays the system logs.
 - **Set terminal/system_logs**: Resets or clears the system logs.
 
-- **Error Directory**:
+**Error Directory**:
 - **View error_dir**: Displays a list of error codes from various files.
 
-- **Security Management**:
-- **View security settings**: Displays current security settings.
-- **Modify security settings**: Allows modification of security settings.
-- **View security logs**: Displays logs of security-related events.
+**Security Management**:
+- **Security settings**: Displays current security settings.
+- **Modify security levels**: Allows modification of security levels with a reason.
+- **Security logs**: Change/add and displays logs of security-related events.
 
-- **Hacking Interface**:
+**Hacking Interface**:
 - **Simulate hacking attempts**: Provides an interactive hacking simulation.
 
-- **Entry Logs**:
-- **View entry logs**: Displays logs of entries made into the system.
-- **Manage entry logs**: Allows management (viewing, adding, deleting) of entry logs.
+**Entry Logs**:
+- **Manage entry logs**: Allows management (viewing, adding, deleting) of entry logs just like the Fallout Series.
 
-- **Help Menu**:
-- **help**: Displays instructions and information about using the terminal.
+**Data Archive**:
+- **Experiments**: Just like the entry-logs but instead is entirely dedicated to expermentation data and logs.
 
+**Help Menu**:
+- **Help**: Displays instructions, command-lines and information about using the terminal system.
+
+**Terminal**:
+- **Terminal**: Able to use your regular operating systems terminal from within the script.
+
+**Exit/restart**: 
 - **Exit**: Exits the terminal application.
+- **Restart**: Restarts the OS or terminal.py.
+- **Logout**: Able to logout of the main terminal, back into the basic command terminal.
 
-### Detailed Functionality
-
-#### Password Management
-- **password_m()**: This function manages password-related tasks.
-- **View password**: Reads and displays the current password from `PasswordTXT`.
-- **Change password**: Prompts for a new password, writes it to `PasswordTXT`, and confirms the change.
-
-#### Username Management
-- **username_m()**: This function manages username-related tasks.
-- **View username**: Reads and displays the current username from `UserTXT`.
-- **Change Username**: Prompts for a new username, writes it to `UserTXT`, and confirms the change.
-
-#### System Logs
-- **sys_log2**: Logs system events with a timestamp and context.
-- **view system-logs**: Displays the current system logs by reading `system-logs.txt`.
-- **set terminal/system_logs**: Resets the system logs, clearing the `systemLogTXT` file and starting fresh.
-
-#### Error Directory
-- **view error_dir**: Displays a list of predefined error codes and descriptions from files in the error directory.
-- Files include: `0x0AABFF00.txt`, `0x0D890102.txt`, etc.
-
-#### Security Management
-- **View security settings**: Displays current security settings from `security.txt`.
-- **Modify security settings**: Prompts to modify and save new security settings to `security.txt`.
-- **View security logs**: Displays security logs from `security-logs.txt`.
-
-#### Hacking Interface
-- **Simulate hacking attempts**: Provides an interactive hacking simulation similar to the mini-games found in Fallout, allowing users to attempt hacking into the system.
-
-#### Entry Logs
-- **View entry logs**: Displays logs of entries made into the system from `entry-logs.txt`.
-- **Manage entry logs**: Allows adding new entries, viewing existing entries, and deleting specific entries from `entry-logs.txt`.
-
-#### Help Menu
-- **help_m()**: Displays a help menu with instructions or information by reading `help-menu.txt`.
-
-#### Exiting
-- **exit**: Logs the exit event and terminates the application.
+**Hack into Terminal**:
+- **Hacking**: You can simply hack into the terminal if you do not have the log in. You can use Fallout-3 'set terminal/inquire' command in the specified capslock on the terminal system to prompt the hacking all Fallout fans know. 
 
 ### Notes
 
-- The terminal interface is designed to replicate the feel of vintage computer systems.
-- Make sure to save your changes before exiting the application to avoid losing any updates.
+- The terminal interface is designed to replicate the feel of the Fallout 3 & 4 computer-terminal systems.
+- Saves are automatic once the file has been created. eg/: if you write an entry; you just have to finish writing in it and press 'enter' for it to save automatically. If your computer turns off during writing or the scirpt is cancelled, there may be a possibility that the file may not be upto date, or written at all.
+- This is a work in progress, I am not an experienced programmer. I was simply doing this for fun since I owned an old CRT display and wanted to create a Fallout Series terminal.
 
 ## Contributing
 
