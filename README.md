@@ -30,7 +30,7 @@ The logon is set to 'admin' with the password being '1234' this can be changed i
    ```
 2. **Navigate to the project directory**:
    ```
-   cd RobCo-Terminal
+   cd RobCo-Terminal-4.0
    ```
 3. **Run the terminal application**:
    ```
