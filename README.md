@@ -124,6 +124,7 @@ simple-term-menu
 datetime
 subprocess
 platform
+logging
 shutil
 socket
 random
