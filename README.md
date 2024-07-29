@@ -8,7 +8,7 @@ I recommend using 'Cool-retro-term' by Swordfish90: https://github.com/Swordfish
 The centre of the screen for the script is set in the 'Terminal.py' file line: 173.
 The current centerLine is set to 95, this is because that is the size of my CRT display.
 
-## Features
+## Key Features
 
 - **User Management**: View and change passwords, usernames, credentials, authorisation.
 - **System Log**: Logs every move you make so you are able to view at anytime, you can also reset the system log.
@@ -40,6 +40,23 @@ Upon running the script, you will be in a small section of the terminal where si
 
 The custom missile system is a .txt file with a graph of missile silo inventories for each countries, all data is recieved from: : https://www.armscontrol.org/factsheets/missiles
 This is there just for aesthetics, not functional in anyway except for viewing different missile variants in specified countries (all public information).
+
+### Pictures
+**Loading Screen**
+<img width="1075" alt="Screenshot 2024-07-29 at 11 22 19 AM" src="https://github.com/user-attachments/assets/33dcfe57-4283-4aa7-b86a-b775572e0b4e">
+
+**Logon**
+<img width="1074" alt="Screenshot 2024-07-29 at 11 26 24 AM" src="https://github.com/user-attachments/assets/34604ce6-fed6-4de8-bbc8-9fe41da8ea3a">
+
+**Hacking**
+<img width="1077" alt="Screenshot 2024-07-29 at 11 24 59 AM" src="https://github.com/user-attachments/assets/7137f539-ff08-4aff-abde-109e72760d82">
+
+**Admin Menu**
+<img width="1077" alt="Screenshot 2024-07-29 at 11 25 29 AM" src="https://github.com/user-attachments/assets/a94bc1d2-8220-4b62-99b0-b5e284812b8f">
+
+**Normal Menu 'Help'**
+<img width="1074" alt="Screenshot 2024-07-29 at 11 26 24 AM" src="https://github.com/user-attachments/assets/2fbefe46-7586-4c14-ac33-154657c81e09">
+
 
 ### Main Menu Commands
 Some of the main menu commands:
