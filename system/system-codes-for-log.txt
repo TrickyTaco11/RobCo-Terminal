@@ -1,0 +1,106 @@
+start_up
+terminal_menu
+main_menu
+
+@return
+@returning < return
+@returning < /automatic system_choice
+
+@restarting > shutdown_os
+@restarting terminal.py /// override=
+
+@access
+
+@exiting terminal.py (os_e)
+
+@logon user:
+@logout user:
+
+@clear
+
+@overwrite
+
+@back-up
+
+@check
+
+@display
+
+@report
+
+@activate
+
+@activated
+
+@network
+
+@memory
+
+@disk
+
+@cpu
+
+@status
+
+@locate
+
+@protected.sys(setting):
+
+@changed
+
+@function cmd:
+
+@view
+
+@add
+
+@encrypt
+
+@exit()
+
+@adjust
+
+@log
+
+@saved
+
+@loaded
+
+*
+
+shutdown_m > aborted > @returning
+shutdown_m > initiated > shutting-down-OS
+
+main_terminal > correct(accessed)
+main_terminal > incorrect(denied)
+
+terminal/system_logs @set
+
+! ! ! terminal/inquire @activated
+! ! ! protection/accounts.f @activated
+! ! ! restart/maint @halt > CRITICAL
+! ! ! debug/accounts.f @activated
+! ! ! @locked > LOCKED OUT > administrator (r)
+! ! ! @locked > @restarting > shutdown_os
+
+@error >
+@error > 0x0AABFF00
+@error > 0x0D890102
+@error > 0x00B636C6
+@error > 0x03C663A1
+@error > 0x07F6BAAC
+@error > 0x357C5001
+@error > 0x00001001
+@error > 0x00001011
+@error > 0xA001C007
+@error > 0xF141A013
+@error > 0xFA770171
+@error > 0xFFF11011
+
+logged-on user:
+
+! ! ! @unlocked > ACCESS GRANTED > main_code()
+
+@reboot sys
+
+@update

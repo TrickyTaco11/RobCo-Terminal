@@ -1,0 +1,2 @@
+ERROR 0xFFFFF710
+"Proccessor Corrpution Detected"

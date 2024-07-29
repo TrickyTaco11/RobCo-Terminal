@@ -1,0 +1,4 @@
+ERROR 0x00B636C6
+"No Input Device Recognised."
+"Reconnect Keyboard."
+

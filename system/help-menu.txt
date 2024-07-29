@@ -1,0 +1,10 @@
+ logon [user]                         | logs on as specified user
+ shutdown                             | shuts-down the operating system
+ help                                 | opens help commands
+ set terminal/[function]              | allows user to reset/edit system functions
+ exit                                 | exits the terminal.py
+ view d- [directory] [filename]       | views a file from a directory within the
+                                        terminalvx directory
+ view f- [filename]                   | views a file from within the terminalvx directory
+ view p- [path/to/file]               | views a file from a path within the whole computer
+ clear                                | clears the terminal screen

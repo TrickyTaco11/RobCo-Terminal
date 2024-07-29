@@ -1,0 +1,4 @@
+ERROR 0xF141A013
+"No Data Storage Detected."
+"Check Tape Drive Connection."
+

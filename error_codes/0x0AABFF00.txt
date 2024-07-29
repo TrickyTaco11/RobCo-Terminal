@@ -1,0 +1,4 @@
+ERROR 0x0AABFF00
+"Primary power source unavailable"
+"Check all cords and plugs for connection"
+

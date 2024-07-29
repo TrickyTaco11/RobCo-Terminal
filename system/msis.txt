@@ -1,0 +1,119 @@
+| Country           | System                     | Status        | Range^2          | Fuel   |
+| Afghanistan       | Frog-7                     | Operational   | 70km             | Solid  |
+|                   | Scud-B                     | UNKNOWN       | 300km            | Liquid |
+| Armenia           | Frog-7                     | Operational   | 70km             | Solid  |
+|                   | Scud-B^4                   | Operational   | 70km             | Liquid |
+|                   | SS-21 Scarab-C             | Operational   | 70-120km         | Liquid |
+|                   | SS-26 Stone                | Operational   | 280km            | Solid  |
+| Bahrain           | ATACMS Block 1 (MGM-140)   | Operational   | 165km            | Solid  |
+|                   | Frog-7                     | Operational   | 70km             | Solid  |
+|                   | SS-21 Scarab B             | Operational   | 120km            | Solid  |
+|                   | Scud-B                     | Operational   | 300km            | Liquid |
+|                   | SS-26 Stone                | Operational   | 400km            | Solid  |
+| China             | B611 (CSS-X-11)            | Operational   | 250km            | Solid  |
+|                   | M-7 (CSS-8)                | Operational   | 190-250km        | Liquid |
+|                   | DF-4 (CSS-3)               | Retiring      | 5,500km (+)      | Liquid |
+|                   | DF-5 (CSS-4, Mod 1)        | Operational   | 12,000km         | Liquid |
+|                   | DF-5A (CSS-4, Mod 2)       | Operational   | 13,000km (+)     | Liquid |
+|                   | DF-5B (CSS-4, Mod 3)       | Operational   | 12,000km         | Liquid |
+|                   | DF-5C                      | DEVELOPMENT   | 13,000km         | Liquid |
+|                   | DF-11 (CSS-7)              | Operational   | 280km            | Solid  |
+|                   | DF-11A (CSS-7)             | Operational   | 350km            | Solid  |
+|                   | DF-15A (CSS-6)             | Operational   | 900km            | Solid  |
+|                   | DF-15B (CSS-6)             | Operational   | 600-900km        | Solid  |
+|                   | DF-15C (CSS-6)             | DEVELOPMENT   | UNKNOWN          | Solid  |
+|                   | DF-16 (CSS-11)             | Operational   | 800-1000km       | Solid  |
+|                   | DF-21 (CSS-5, Mod 1)       | Operational   | 1750km (+)       | Solid  |
+|                   | DF-21A (CSS-5, Mod 2)      | Operational   | 1770km (+)       | Solid  |
+|                   | DF-21B (CSS-5, Mod 4)      | Operational   | 2,150-2500km     | Solid  |
+|                   | DF-21D (CSS-5, Mod 5)      | Operational   | 1500km           | Solid  |
+|                   | DF-26                      | Operational   | 4000km           | Solid  |
+|                   | DF-31 (CSS-10 Mod 1)       | Operational   | 7000km (+)       | Solid  |
+|                   | DF-31A (CSS-10 Mod 2)      | Operational   | 11,000km (+)     | Solid  |
+|                   | DF-41 (CSS-X-20)           | Operational   | 12,000-15,000km  | Solid  |
+|                   | Julang 1 (CSS-N-3)(SLBM)   | Retiring      | 1000km (+)       | Solid  |
+|                   | Julang 2 (CSS-N-14)(SLBM)  | Operational   | 7000km (+)       | Solid  |
+|                   | Julang 3 (SLBM)            | Operational   | 9000km (+)       | Solid  |
+| Egypt             | R-300 (SS-1-C Scud-B)      | Operational   | 300km            | Liquid |
+|                   | Project-T (Scud B-100)     | Operational   | 450km            | Liquid |
+|                   | Scud-C                     | Operational   | 550km            | Liquid |
+|                   | R-70 Luna M (Frog-7B)      | Operational   | 70km             | Solid  |
+|                   | Sakr-80                    | Operational   | 80km (+)         | Solid  |
+| France            | M45 (SLBM)                 | Retired       | 4000-6000km      | Solid  |
+|                   | M51.1 (SLBM)               | Retiring      | 6000km (+)       | Solid  |
+|                   | M51.2 (SLBM)               | Operational   | 8000km (+)       | Solid  |
+|                   | M51.3 (SLBM)               | Development   | 9000km (+)       | Solid  |
+| Georgia           | Scud-B                     | UNKNOWN       | 300km            | Liquid |
+| Greece            | ATACMS Block 1 (MGM-140)   | Operational   | 165km            | Solid  |
+| India             | Prithvi-I                  | Retiring      | 150km            | Liquid |
+|                   | Prahaar                    | Development   | 150km            | Solid  |
+|                   | Prithvi-II                 | Operational   | 250-350km        | Liquid |
+|                   | Prithvi-III                | Development   | 350km            | Solid  |
+|                   | Dhanush                    | Operational   | 400km            | Liquid |
+|                   | Sagarika/K-15 (SLBM)       | Operational   | 700km            | Solid  |
+|                   | Agni-I                     | Operational   | 700-1,200km      | Solid  |
+|                   | Agni-II                    | Operational   | 2,000km (+)      | Solid  |
+|                   | Agni-P                     | Development   | 1,000-2,000km    | Solid  |
+|                   | Agni-III                   | Operational   | 3,200km (+)      | Solid  |
+|                   | Agni-IV                    | Development   | 3,500km (+)      | Solid  |
+|                   | Agni-V                     | Development   | 5,200km (+)      | Solid  |
+|                   | Agni-VI                    | Development   | 8,000-10,000km   | Solid  |
+|                   | K-4 (SLBM)                 | Development   | 3,500km          | Solid  |
+|                   | K-5 (SLBM)                 | Development   | 5,000km (+)      | Solid  |
+| Iran              | Qiam-1                     | Operational   | 500-1,000km      | Liquid |
+|                   | Fateh-110                  | Operational   | 200-300km        | Solid  |
+|                   | Fateh=313                  | Operational   | 500km            | Solid  |
+|                   | Tondar-69 (CSS-8)          | Operational   | 150km            | Solid  |
+|                   | Shahab 1                   | Operational   | 300km            | Liquid |
+|                   | Shahab 2                   | Operational   | 500km            | Liquid |
+|                   | Zolfaghar                  | Operational   | 700km            | Solid  |
+|                   | Shahab-3 (Zelzal-3)        | Operational   | 800-1,200km      | Liquid |
+|                   | Ghadr 1                    | Development   | 2,000km          | Liquid |
+|                   | Sejjil-2                   | Operational   | 1,500-12,500km   | Solid  |
+|                   | Khoramshahr                | Development   | 2,000km          | Liquid |
+|                   | Emad-1                     | Development   | 2,000km          | Liquid |
+| Iraq              | Al Fat'h (Ababil-100)      | Operational   | 160km            | Solid  |
+|                   | Al Samound II              | Operational   | 180-200km        | Liquid |
+| Israel            | LORA                       | Operational   | 280km            | Solid  |
+|                   | Jericho-2                  | Operational   | 1,500-3,500km    | Solid  |
+|                   | Jericho-3                  | Operational   | 4,800-6,500km    | Solid  |
+| Kazakhstan        | Frog-7                     | Operational   | 70km             | Solid  |
+|                   | Tochka-U                   | Operational   | 120km            | Solid  |
+|                   | R-300                      | Operational   | 300km            | Liquid |
+| Libya             | Frog-7                     | Operational   | 70km             | Solid  |
+|                   | Al Fatah                   | Development   | 1,300-1,500km    | Liquid |
+|                   | Scud-B                     | Operational   | 300km            | Liquid |
+| North Korea       | KN-02                      | Operational   | 120-170km        | Solid  |
+|                   | Hwasong 5                  | Operational   | 300km            | Liquid |
+|                   | Hwasong 6                  | Operational   | 500km            | Liquid |
+|                   | Hwasong 7                  | Operational   | 700-1,000km      | Liquid |
+|                   | No-Dong-1                  | Operational   | 1,200-1,500km    | Liquid |
+|                   | Frog 7                     | Operational   | 70km             | Solid  |
+|                   | Taepo Dong-1 ^9            | TESTED        | 2,000-5,000km    | Liquid |
+|                   | Taepo Dong-2 ^1            | DEVELOPMENT/T | 4,000-10,000km   | Liquid |
+|                   | Taepo Dong-2/Unha-2 SLV    | DEVELOPMENT/T | 10,000-15,000km  | Liquid |
+|                   | No-Dong-2(B)/BM-25/Musudan | DEVELOPMENT/T | 2,500-4,000km    | Liquid |
+|                   | KN-17/Hwasong-12           | DEVELOPMENT/T | 4,500km          | Liquid |
+|                   | KN-08/Hwasong-13           | DEVELOPMENT   | 5,500-11,500km   | Liquid |
+|                   | KN-14/Hwasong-13           | DEVELOPMENT   | 8,000-10,000km   | Liquid |
+|                   | KN-11/Pukkuksong-1         | DEVELOPMENT/T | 1,200km          | Solid  |
+|                   | KN-15/Pukkuksong-2         | DEVELOPMENT/T | 1,200-2,000km    | Solid  |
+|                   | KN-20/Hwasong-14           | DEVELOPMENT/T | 10,000 (+) km    | Liquid |
+|                   | KN-22/Hwasong-15           | DEVELOPMENT/T | 13,000km         | Liquid |
+|                   | KN-18/Scud variant         | DEVELOPMENT/T | 450 (+) km       | Liquid |
+| Pakistan          | Hatf-1                     | Operational   | 70-100km         | Solid  |
+|                   | Hatf-2 (Abdali)            | Operational   | 180-200km        | Solid  |
+|                   | Hatf-3 (Ghaznavi)          | Operational   | 290km            | Solid  |
+|                   | Shaheen-1 (Hatf-4)         | Operational   | 750km            | Solid  |
+|                   | Shaheen-1A (Hatf-4)        | DEVELOPMENT/T | 900km            | Solid  |
+|                   | Ghauri-1 (Hatf-5)          | Operational   | 1,250-1,500km    | Liquid |
+|                   | Ghauri-2 (Hatf-5a)         | DEVELOPMENT/T | 1,800km          | Liquid |
+|                   | Shaheen-2 (Hatf-6)         | Operational   | 1,500-2,500km    | Solid  |
+|                   | Ghauri-3 ^12               | DEVELOPMENT   | 3,000km          | Liquid |
+|                   | Nasr (Hatf-9)              | Operational   | 60km             | Solid  |
+|                   | Ababeel                    | DEVELOPMENT   | 2,200km          | Solid  |
+| Poland            | M57 ATACMS (TACMS 2000 U)  | APPROVED      | 70-3,000km       | Solid  |
+| Romania           | Scud-B                     | Operational   | 300km            | Liquid |
+| Russia            | RS-20V (SS-18 Satan)       | Operational   | 10,200-16,000km  | Liquid |
+|                   | RS-18 (SS-19 Stiletto)     | Operational   | 10,000km         | Liquid |
+|                   | RS-28 Sarmat               | DEVELOPMENT/T | 10,000-18,00km   | Liquid |

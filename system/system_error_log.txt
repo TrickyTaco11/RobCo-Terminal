@@ -1,0 +1,5 @@
+ WARNING: Disk space running low on sector 3B
+ ERROR: Read/write error on drive C:
+ WARNING: High temperature detected in CPU
+ ERROR: Network packet loss detected
+ WARNING: Unusual activity detected in system logs

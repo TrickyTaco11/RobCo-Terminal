@@ -1,0 +1,4 @@
+ERROR 0x357C5001
+"Bad Sectors Found In Boot Block."
+"Terminal Error"
+

@@ -1,0 +1,4 @@
+ERROR 0x03C663A1
+"Network connection not found"
+"Dummy terminal inactive"
+

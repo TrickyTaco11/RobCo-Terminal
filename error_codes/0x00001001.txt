@@ -1,0 +1,3 @@
+ERROR 0x00001001
+"Critical failure."
+
