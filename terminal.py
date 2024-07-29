@@ -4,48 +4,6 @@
 #
 # Based from Fallout 3 and 4's terminal system while taking inspiration from old CRT terminals from the 80's.
 # This project is designed to run in terminal or a terminal emulator, preferably in 'cool-retro-term'.
-# cd /Users/trickytaco11/PycharmProjects/terminalv4
-#
-# - - - - - - - - - - Contents (line number)- - - - - - - - - -
-#
-# - - - - - Information (readme) = 5
-#
-# - - - - - Imports
-#
-# - - - - - Variables
-# * Date and time
-# * User txt
-# * Security txt
-# * Other txt
-# * Reading txt
-# * Directories
-# * Paths
-# * Settings
-# * System
-# * Salli
-# * Internet
-# * Chars
-#
-# - - - - - Define
-# * - - Functions
-# * - - Encryption
-# * - - Locate files
-# * - - System
-# * Status
-# * Reports
-# * CPU
-# * Memory
-# * Disk
-# * Network
-# * Error
-# * Recommendations
-# * Updates
-# * Backup
-# * Reboot
-# * - - System Logs
-# * - - Effects
-# * - - terminal/inquire - debug
-
 #
 #
 #
