@@ -8,6 +8,8 @@ I recommend using 'Cool-retro-term' by Swordfish90: https://github.com/Swordfish
 The centre of the screen for the script is set in the 'Terminal.py' file line: 173.
 The current centerLine is set to 95, this is because that is the size of my CRT display.
 
+The logon is set to 'admin' with the password being '1234' this can be changed in the settings section of the admin menu. I will be creating a more advanced encrypted password.txt file so no one can open the file and see the password clear as day. I am currently working on the encryption!
+
 ## Key Features
 
 - **User Management**: View and change passwords, usernames, credentials, authorisation.
@@ -107,6 +109,7 @@ Some of the main menu commands:
 - The terminal interface is designed to replicate the feel of the Fallout 3 & 4 computer-terminal systems.
 - Saves are automatic once the file has been created. eg/: if you write an entry; you just have to finish writing in it and press 'enter' for it to save automatically. If your computer turns off during writing or the scirpt is cancelled, there may be a possibility that the file may not be upto date, or written at all.
 - This is a work in progress, I am not an experienced programmer. I was simply doing this for fun since I owned an old CRT display and wanted to create a Fallout Series terminal.
+- There are still some bugs and 'IN PROGRESS' sections to this project, the code may not be the fanciest but it works for the time being, I will clean up the code for every major version released.
 
 ## Contributing
 
