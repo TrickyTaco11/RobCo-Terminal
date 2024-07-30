@@ -61,7 +61,7 @@ This is there just for aesthetics, not functional in anyway except for viewing d
 
 **Admin Menu**
 
-<img width="1077" alt="Screenshot 2024-07-29 at 11 25 29 AM" src="https://github.com/user-attachments/assets/a94bc1d2-8220-4b62-99b0-b5e284812b8f">
+![Screenshot 2024-07-30 at 10 19 46 PM](https://github.com/user-attachments/assets/fd9cca22-6c91-43a1-b083-42dc0046ac3b)
 
 
 **System-Log**
@@ -71,7 +71,7 @@ This is there just for aesthetics, not functional in anyway except for viewing d
 
 **Terminal Entry**
 
-<img width="1068" alt="Screenshot 2024-07-30 at 4 16 43 PM" src="https://github.com/user-attachments/assets/d95dafac-826b-40bd-9a98-71ad24ce856a">
+![Screenshot 2024-07-30 at 10 20 15 PM](https://github.com/user-attachments/assets/fae0326b-7355-42cb-8ecd-6a49ce98c5b3)
 
 
 ### Main Menu Commands
@@ -124,7 +124,6 @@ Some of the main menu commands:
 - Saves are automatic once the file has been created. eg/: if you write an entry; you just have to finish writing in it and press 'enter' for it to save automatically. If your computer turns off during writing or the scirpt is cancelled, there may be a possibility that the file may not be upto date, or written at all.
 - This is a work in progress, I am not an experienced programmer. I was simply doing this for fun since I owned an old CRT display and wanted to create a Fallout Series terminal.
 - There are still some bugs and 'IN PROGRESS' sections to this project, the code may not be the fanciest but it works for the time being, I will clean up the code for every major version released.
-- The copyright date for RobCo Industries is currently set to '2020-{currentYear}', this however can be changed in the terminal.py code. switch out '2020' for '2075', and '{currentYear}' to '2077'.
 
 ### Imports For Script
 Repeat for all:
