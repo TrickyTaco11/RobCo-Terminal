@@ -46,19 +46,32 @@ This is there just for aesthetics, not functional in anyway except for viewing d
 
 ### Pictures
 **Loading Screen**
-<img width="1075" alt="Screenshot 2024-07-29 at 11 22 19 AM" src="https://github.com/user-attachments/assets/33dcfe57-4283-4aa7-b86a-b775572e0b4e">
+
+<img width="1071" alt="Screenshot 2024-07-30 at 4 17 21 PM" src="https://github.com/user-attachments/assets/2b2de3c9-02a0-4bed-99df-d3812b0fd4e5">
 
 **Logon**
-<img width="1074" alt="Screenshot 2024-07-29 at 11 26 24 AM" src="https://github.com/user-attachments/assets/34604ce6-fed6-4de8-bbc8-9fe41da8ea3a">
+
+<img width="1070" alt="Screenshot 2024-07-30 at 4 15 01 PM" src="https://github.com/user-attachments/assets/e1d7a782-7ab9-41b4-b216-5578e4efc492">
+
 
 **Hacking**
-<img width="1077" alt="Screenshot 2024-07-29 at 11 24 59 AM" src="https://github.com/user-attachments/assets/7137f539-ff08-4aff-abde-109e72760d82">
+
+<img width="1073" alt="Screenshot 2024-07-30 at 4 16 04 PM" src="https://github.com/user-attachments/assets/9021e319-9cd0-4d1f-8899-51ac209b0828">
+
 
 **Admin Menu**
+
 <img width="1077" alt="Screenshot 2024-07-29 at 11 25 29 AM" src="https://github.com/user-attachments/assets/a94bc1d2-8220-4b62-99b0-b5e284812b8f">
 
-**Normal Menu 'Help'**
-<img width="1074" alt="Screenshot 2024-07-29 at 11 26 24 AM" src="https://github.com/user-attachments/assets/2fbefe46-7586-4c14-ac33-154657c81e09">
+
+**System-Log**
+
+<img width="1072" alt="Screenshot 2024-07-30 at 4 17 06 PM" src="https://github.com/user-attachments/assets/5536d2d2-19ec-44eb-9f63-5007383ef330">
+
+
+**Terminal Entry**
+
+<img width="1068" alt="Screenshot 2024-07-30 at 4 16 43 PM" src="https://github.com/user-attachments/assets/d95dafac-826b-40bd-9a98-71ad24ce856a">
 
 
 ### Main Menu Commands
