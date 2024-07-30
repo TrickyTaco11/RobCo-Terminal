@@ -4,6 +4,7 @@
 #
 # Based from Fallout 3 and 4's terminal system while taking inspiration from old CRT terminals from the 80's.
 # This project is designed to run in terminal or a terminal emulator, preferably in 'cool-retro-term'.
+# cd /Users/trickytaco11/PycharmProjects/terminalv4
 #
 #
 #
@@ -627,7 +628,7 @@ def robco_interface(type_function):
     empty()
 
     type_function("ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM".center(centre, " "))
-    type_function(("COPYRIGHT 2020-" + year + " ROBCO INDUSTRIES").center(centre, " "))
+    type_function("COPYRIGHT 2075-2077 ROBCO INDUSTRIES".center(centre, " "))
     with open(server, 'r') as F:
         type_function(F.read().center(centre, " "))
     print(" \n" * 3)
