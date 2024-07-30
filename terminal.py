@@ -4,7 +4,6 @@
 #
 # Based from Fallout 3 and 4's terminal system while taking inspiration from old CRT terminals from the 80's.
 # This project is designed to run in terminal or a terminal emulator, preferably in 'cool-retro-term'.
-# cd /Users/trickytaco11/PycharmProjects/terminalv4
 #
 #
 #
