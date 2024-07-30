@@ -9,7 +9,7 @@ The centre of the screen for the script is set in the 'Terminal.py' file line: ~
 The current centerLine is set to 95, this is because that's the size of my CRT display.
 This script was made for Raspberry Pi OS, so this will indeed work on Raspberry Pi, Mac/Apple, and Linux. Windows is currently in development.
 
-The logon is set to 'admin' with the password being '1234' this can be changed in the settings section of the admin menu. I will be creating a more advanced encrypted password.txt file so no one can open the file and see the password clear as day. I am currently working on the encryption!
+The logon is set to 'admin' with the password being '1234', these can be changed in the settings section of the admin-terminal menu. 
 
 ## Key Features
 
@@ -65,17 +65,17 @@ This is there just for aesthetics, not functional in anyway except for viewing d
 Some of the main menu commands:
 
 **Settings**:
-- **Password**: View or change your password.
+- **Encrypted Password**: View or change your password.
 - **Username**: View or change your username.
 - **Credential**: View or change your credentials.
-- **Clearance**: View your clearance (overseer, admin, ect...), which can be altered in the clearance.txt file
+- **Clearance**: View your clearance (overseer, admin, ect...), which can be altered in the user_info/clearance.txt file
 
 **System Logs**:
 - **View system-logs**: Displays the system logs.
 - **Set terminal/system_logs**: Resets or clears the system logs.
 
 **Error Directory**:
-- **View error_dir**: Displays a list of error codes from various files.
+- **View error_dir**: A list of error codes from the fallout series.
 
 **Security Management**:
 - **Security settings**: Displays current security settings.
@@ -111,7 +111,7 @@ Some of the main menu commands:
 - Saves are automatic once the file has been created. eg/: if you write an entry; you just have to finish writing in it and press 'enter' for it to save automatically. If your computer turns off during writing or the scirpt is cancelled, there may be a possibility that the file may not be upto date, or written at all.
 - This is a work in progress, I am not an experienced programmer. I was simply doing this for fun since I owned an old CRT display and wanted to create a Fallout Series terminal.
 - There are still some bugs and 'IN PROGRESS' sections to this project, the code may not be the fanciest but it works for the time being, I will clean up the code for every major version released.
-- The copyright date for RobCo Industries is currently set to '2020-{currentYear}', this however can be changed in the terminal.py code. switch out 2020 for 2075, and {currentYear} to 2077.
+- The copyright date for RobCo Industries is currently set to '2020-{currentYear}', this however can be changed in the terminal.py code. switch out '2020' for '2075', and '{currentYear}' to '2077'.
 
 ### Imports For Script
 Repeat for all:
@@ -121,14 +121,16 @@ Repeat for all:
 All imports:
  ```
 simple-term-menu
-datetime
 subprocess
+datetime
 platform
 logging
+getpass
 shutil
 socket
 random
 string
+bcrypt
 getch
 time
 sys
