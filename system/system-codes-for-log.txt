@@ -1,70 +1,70 @@
-start_up
-terminal_menu
-main_menu
+start_up'
+terminal_menu'
+main_menu'
 
-@return
+@return'
 @returning < return
 @returning < /automatic system_choice
 
-@restarting > shutdown_os
+@restarting > shutdown_os'
 @restarting terminal.py /// override=
 
-@access
+@access'
 
 @exiting terminal.py (os_e)
 
 @logon user:
 @logout user:
 
-@clear
+@clear'
 
-@overwrite
+@overwrite'
 
-@back-up
+@back-up'
 
-@check
+@check'
 
-@display
+@display'
 
-@report
+@report'
 
-@activate
+@activate'
 
-@activated
+@activated'
 
-@network
+@network'
 
-@memory
+@memory'
 
-@disk
+@disk'
 
-@cpu
+@cpu'
 
-@status
+@status'
 
-@locate
+@locate'
 
 @protected.sys(setting):
 
-@changed
+@changed'
 
 @function cmd:
 
-@view
+@view'
 
-@add
+@add'
 
-@encrypt
+@encrypt'
 
-@exit()
+@exit()'
 
-@adjust
+@adjust'
 
-@log
+@log'
 
-@saved
+@saved'
 
-@loaded
+@loaded'
 
 *
 
@@ -74,7 +74,7 @@ shutdown_m > initiated > shutting-down-OS
 main_terminal > correct(accessed)
 main_terminal > incorrect(denied)
 
-terminal/system_logs @set
+terminal/system_logs @set'
 
 ! ! ! terminal/inquire @activated
 ! ! ! protection/accounts.f @activated
@@ -83,7 +83,7 @@ terminal/system_logs @set
 ! ! ! @locked > LOCKED OUT > administrator (r)
 ! ! ! @locked > @restarting > shutdown_os
 
-@error >
+@error >'
 @error > 0x0AABFF00
 @error > 0x0D890102
 @error > 0x00B636C6
@@ -103,4 +103,4 @@ logged-on user:
 
 @reboot sys
 
-@update
+@update'
