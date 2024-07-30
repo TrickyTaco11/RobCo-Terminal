@@ -4,20 +4,24 @@
 #
 # Based from Fallout 3 and 4's terminal system while taking inspiration from old CRT terminals from the 80's.
 # This project is designed to run in terminal or a terminal emulator, preferably in 'cool-retro-term'.
+# cd /Users/trickytaco11/PycharmProjects/terminalv4
+#
 #
 #
 #
 # ---------- Imports ----------
-# from colorama import *
 from simple_term_menu import TerminalMenu
+from getpass import getpass
 from datetime import *
 
 import subprocess
 import platform
+import logging
 import shutil
 import socket
 import random
 import string
+import bcrypt
 import getch
 import time
 import sys
@@ -45,7 +49,7 @@ clearanceTXT = "user_info/clearance.txt"
 # Security txt
 securitylvlTXT = "security_level/security-level.txt"
 securityrlvlTXT = "security_level/security-level-reasoning.txt"
-systemLogTXT = "system/system-logs.txt"
+systemLogLOG = "system/system-logs.log"
 
 # Other txt
 msis = "system/msis.txt"
@@ -54,8 +58,8 @@ msis = "system/msis.txt"
 with open(UserTXT, "r") as userFile:
     user = userFile.readline().strip("\n")
 
-with open(PasswordTXT, "r") as passwordFile:
-    password = passwordFile.readline().strip("\n")
+with open("user_info/password.txt", "rb") as file:
+    encrypted_password_from_file = file.read()
 
 with open(credTXT, "r") as credFile:
     credential = credFile.readline().strip("\n")
@@ -110,18 +114,18 @@ paths = [
     'security_logs',
     'security_protocols',
     'venv',
-    'clearance.txt',
-    'corrupt-error.txt',
-    'credential.txt',
-    'help-menu.txt',
-    'msis.txt',
-    'password.txt',
-    'security-level.txt',
-    'security-level-reasoning.txt',
-    'sevenletterwords.txt',
-    'server-system.txt',
-    'system-logs.txt',
-    'user.txt',
+    'user_info/clearance.txt',
+    'system/corrupt-error.txt',
+    'user_info/credential.txt',
+    'system/help-menu.txt',
+    'system/msis.txt',
+    'user_info/password.txt',
+    'security_level/security-level.txt',
+    'security_level/security-level-reasoning.txt',
+    'system/sevenletterwords.txt',
+    'system/server-system.txt',
+    'system/system-logs.log',
+    'user_info/user.txt',
     'terminal.py',
 ]
 directoryB_paths = ["archive_entries", "emergency_protocols", "error_codes", "journal_entries", "security_level",
@@ -133,7 +137,7 @@ progressI = "- IN PROGRESS - ".center(centre, "-")
 
 # System
 clear = lambda: os.system('clear')
-softwareV = "v4.0"
+softwareV = "v4.1"
 server = "system/server-system.txt"
 backup_location = backup_dir
 
@@ -146,6 +150,9 @@ fullAI = "ⓒ" + salliY + " SALLI " + salliV
 # Internet
 hostname = socket.gethostname()
 ipaddr = socket.gethostbyname(hostname)
+
+# Encryption
+
 
 # Chars
 GARBAGE_CHARS = '~!@#$%^&*()_+-={}[]|;:,.<>?/'
@@ -261,8 +268,6 @@ def handle_command(command):
             view_file(file_path)
         except ValueError:
             charp("Invalid command format. Use: view d- {directory} {filename}")
-    else:
-        empty()
 
     if command.startswith("view f- "):
         try:
@@ -272,15 +277,23 @@ def handle_command(command):
         except ValueError:
             charp("Invalid command format. Use: view f- {filename}")
 
+    if command.startswith(f"view p- "):
+        file_path = command[len("view p- "):].strip()
+        view_file(file_path)
+
 
 def view_file(file_path):
     if os.path.exists(file_path):
         with open(file_path, 'r') as file:
             for line1 in file:
                 print(line1, end='')
-                time.sleep(0.05)
+                time.sleep(0.01)
     else:
         charp(f"File {file_path} does not exist.")
+
+
+def set_test_message():
+    print("This is a test message to showcase the current text and background colour. > !@#123ABCabc <")
 
 
 # Encryption
@@ -571,26 +584,31 @@ def reboot_system():
 
 
 # System logs
+logging.basicConfig(
+    filename='system/system-logs.log',  # Log file name
+    level=logging.INFO,  # Log level
+    format='%(asctime)s - %(message)s',  # Log format with timestamp
+    datefmt='%Y-%m-%d %H:%M:%S'  # Date and time format
+)
+
+
 def sys_log(code_number, if_input):
-    with open(systemLogTXT, 'a') as F:
-        F.write("* $RobCo_OS:  system:" + read_specific_line("system/system-codes-for-log.txt", code_number) + if_input
-                + " | " + currentDate + ", " + currentTime + "\n")
+    logging.info("* $RobCo_OS:  system:" + read_specific_line("system/system-codes-for-log.txt", code_number)
+                 + if_input)
 
 
 def sys_log2(space_number, code_number, if_input):
     space = "   " * space_number + "* "
-    with open(systemLogTXT, 'a') as F:
-        F.write("  * $RobCo_OS:  system:" + space + read_specific_line("system/system-codes-for-log.txt",
-                                                                       code_number) + if_input +
-                " | " + currentDate + ", " + currentTime + "\n")
+    logging.info("* $RobCo_OS:  system:" + space + read_specific_line("system/system-codes-for-log.txt", code_number)
+                 + if_input)
 
 
 def sys_logEmpty():
-    with open(systemLogTXT, 'a') as F:
+    with open(systemLogLOG, 'a') as F:
         F.write(" \n")
-    with open(systemLogTXT, 'a') as F:
+    with open(systemLogLOG, 'a') as F:
         F.write("=".center(centre, "=") + "\n")
-    with open(systemLogTXT, 'a') as F:
+    with open(systemLogLOG, 'a') as F:
         F.write(" \n")
 
 
@@ -1210,10 +1228,32 @@ def system_log_main():
     robco_interface(print)
 
     header_charp("SYSTEM LOG", "-")
-    slide_by_line(systemLogTXT, delay=0.03)
+    slide_by_line('system/system-logs.log', delay=0.01)
     empty()
 
     back(3, 6)
+
+
+# Password
+def store_password(file_path, hashed_password):
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, 'wb') as F:
+        F.write(hashed_password)
+
+
+def read_password(file_path):
+    with open(file_path, 'rb') as F:
+        return F.read()
+
+
+def verify_password(plain_password, hashed_password):
+    return bcrypt.checkpw(plain_password.encode(), hashed_password)
+
+
+def encrypt_password(plain_password):
+    salt = bcrypt.gensalt()
+    hashed_password = bcrypt.hashpw(plain_password.encode(), salt)
+    return hashed_password
 
 
 # - - - - - Main Setting's Code(s)
@@ -1223,6 +1263,7 @@ def settings_menu():
         while True:
             sys_log2(3, 47, "clearance_m")
             robco_interface(print)
+            header_print("SETTINGS", "-")
 
             clearanceOptions = ["View clearance", "Return"]
             clearance_menu = TerminalMenu(clearanceOptions)
@@ -1241,6 +1282,7 @@ def settings_menu():
         while True:
             sys_log2(3, 47, "cred_m")
             robco_interface(print)
+            header_print("SETTINGS", "-")
 
             credentialOptions = ["View credentials", "Change credentials", "Return"]
             credential_menu = TerminalMenu(credentialOptions)
@@ -1266,27 +1308,35 @@ def settings_menu():
     def password_m():
         charp("ENTER PASSWORD NOW > ")
         passwordPASSWORD = encoded_input("")
-        if passwordPASSWORD == password:
+        try:
+            stored_hashed_password = read_password('user_info/password.txt')
+        except FileNotFoundError:
+            print("Password file not found. Please set up your password first.")
+            return
+
+        if verify_password(passwordPASSWORD, stored_hashed_password):
 
             while True:
                 sys_log2(3, 47, "password_m")
                 robco_interface(print)
+
+                header_print("SETTINGS", "-")
 
                 passwordOptions = ["View password", "Change password", "Return"]
                 password_menu = TerminalMenu(passwordOptions)
                 password_entry_index = password_menu.show()
                 passwordSelection = passwordOptions[password_entry_index]
                 if passwordSelection == "View password":
-                    with open(PasswordTXT, 'r') as F:
-                        charp(F.read())
-                        back(3, 6)
+                    charp(f"Current password: {read_password(PasswordTXT)}")
+                    back(3, 6)
                 if passwordSelection == "Change password":
-                    with open(PasswordTXT, 'w') as F:
-                        F.write("")
-                        passwordEntry = input("> ")
-                    with open(PasswordTXT, 'a') as F:
-                        F.write(passwordEntry)
-                    charp("Password changed to " + passwordEntry)
+                    passEntry = getpass("Enter your new password: ")
+                    hashed_password = encrypt_password(passEntry)
+                    store_password('user_info/password.txt', hashed_password)
+                    print("Password stored successfully.")
+                    empty()
+
+                    charp(f"Password changed to: {passEntry}")
                     back(3, 6)
                 if passwordSelection == "Return":
                     return_menu(3, 6)
@@ -1297,6 +1347,7 @@ def settings_menu():
         while True:
             sys_log2(3, 47, "username_m")
             robco_interface(print)
+            header_print("SETTINGS", "-")
 
             usernameOptions = ["View username", "Change Username", "Return"]
             username_menu = TerminalMenu(usernameOptions)
@@ -1330,6 +1381,7 @@ def settings_menu():
 
         charp("SalliOS " + salliV)
         charp(ai)
+        empty()
         empty()
 
         settingsOption = ["Username", "Password", "Credentials", "Clearance", "Return"]
@@ -1730,6 +1782,7 @@ def main_code():
 #
 #
 # ---------- Main code ----------
+
 sys_logEmpty()
 sys_log(1, '')
 
@@ -1752,6 +1805,11 @@ while True:
         currentUser = user
         sys_log2(1, 16, currentUser)
         empty()
+        try:
+            stored_hashed_password = read_password('user_info/password.txt')
+        except FileNotFoundError:
+            charp("Password file not found. Please set up your password first.")
+            break
 
         charp("Enter password now")
         empty()
@@ -1760,13 +1818,13 @@ while True:
         input_char("> ")
 
         passwordInput = encoded_input("")
-        if passwordInput == password:
+        if verify_password(passwordInput, stored_hashed_password):
             sys_log2(1, 74, '')
             sys_log2(2, 100, currentUser)
 
             main_code()
 
-        elif passwordInput != password:
+        else:
             sys_log2(1, 75, '')
             empty()
 
@@ -1823,7 +1881,7 @@ while True:
         if setTerminal_command == "set file/overwrite=clear":
             sys_log2(1, 21, "system-logs")
             charp("system_logs has been reset")
-            with open(systemLogTXT, 'w') as f:
+            with open(systemLogLOG, 'w') as f:
                 f.write("")
             sys_logEmpty()
             sys_log(1, "> after @reset-log * * *")

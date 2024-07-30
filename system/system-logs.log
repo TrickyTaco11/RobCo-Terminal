@@ -1,0 +1,297 @@
+ 
+===============================================================================================
+ 
+2024-07-29 18:26:41 - * $RobCo_OS:  system:start_up
+2024-07-29 18:26:45 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 18:26:50 - * $RobCo_OS:  system:   * @accesshelp_m
+2024-07-29 18:27:48 - * $RobCo_OS:  system:   * @exit()terminal.py
+2024-07-29 18:27:48 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 19:07:13 - * $RobCo_OS:  system:start_up
+2024-07-29 19:07:15 - * $RobCo_OS:  system:terminal_menu
+ 
+===============================================================================================
+ 
+2024-07-29 20:10:06 - * $RobCo_OS:  system:start_up
+2024-07-29 20:10:09 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:10:39 - * $RobCo_OS:  system:   * @accesshelp_m
+2024-07-29 20:10:50 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:10:52 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:10:52 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:10:56 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:11:10 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:11:35 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:11:49 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:12:38 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:12:43 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:12:43 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:14:39 - * $RobCo_OS:  system:      * @accessrestart_m
+2024-07-29 20:14:39 - * $RobCo_OS:  system:         * @restarting terminal.py /// override=logon.F
+2024-07-29 20:14:47 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:14:52 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:14:52 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:17:56 - * $RobCo_OS:  system:start_up
+2024-07-29 20:17:59 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:18:02 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:18:04 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:18:04 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:18:08 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:18:13 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:18:35 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:18:40 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:18:40 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:18:45 - * $RobCo_OS:  system:      * @accessrestart_m
+2024-07-29 20:18:45 - * $RobCo_OS:  system:         * @restarting terminal.py /// override=logon.F
+2024-07-29 20:18:53 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:18:57 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:18:57 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:19:18 - * $RobCo_OS:  system:start_up
+2024-07-29 20:19:21 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:19:26 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:19:29 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:19:29 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:19:34 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:19:44 - * $RobCo_OS:  system:      * @accessmsis_m
+2024-07-29 20:19:55 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:19:56 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:20:04 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:20:04 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:29:49 - * $RobCo_OS:  system:start_up
+2024-07-29 20:29:52 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:30:02 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:30:03 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:30:03 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:30:08 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+ 
+===============================================================================================
+ 
+2024-07-29 20:31:53 - * $RobCo_OS:  system:start_up
+2024-07-29 20:31:56 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:32:00 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:32:01 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:32:01 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:32:05 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:32:18 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:32:41 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:32:54 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:32:55 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:33:07 - * $RobCo_OS:  system:      * @accessrestart_m
+2024-07-29 20:33:07 - * $RobCo_OS:  system:         * @restarting terminal.py /// override=logon.F
+2024-07-29 20:33:15 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:33:19 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:33:19 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:33:31 - * $RobCo_OS:  system:start_up
+2024-07-29 20:33:34 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:33:40 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:33:42 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:33:42 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:33:46 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:33:48 - * $RobCo_OS:  system:      * @accessmsis_m
+2024-07-29 20:33:57 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:33:58 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:34:01 - * $RobCo_OS:  system:      * @accesssys-logs_m
+2024-07-29 20:34:07 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:34:08 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:34:43 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:34:54 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:34:59 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:34:59 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:35:02 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:35:02 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:35:59 - * $RobCo_OS:  system:start_up
+2024-07-29 20:36:02 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:36:12 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:36:14 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:36:14 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:36:18 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:36:22 - * $RobCo_OS:  system:      * @accessdiagnostics_m
+2024-07-29 20:36:26 - * $RobCo_OS:  system:         * @activatedsystem_diagnostics < run
+2024-07-29 20:36:29 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:36:30 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:36:35 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:36:39 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:36:39 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:36:43 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:37:04 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:37:10 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:37:11 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:37:14 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:37:14 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:37:26 - * $RobCo_OS:  system:start_up
+2024-07-29 20:37:30 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:37:34 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:37:35 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:37:35 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:37:40 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:38:00 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:38:42 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:38:46 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:38:47 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:38:50 - * $RobCo_OS:  system:      * @accessrestart_m
+2024-07-29 20:38:50 - * $RobCo_OS:  system:         * @restarting terminal.py /// override=logon.F
+2024-07-29 20:38:58 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:39:02 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:39:02 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-29 20:45:39 - * $RobCo_OS:  system:start_up
+2024-07-29 20:45:43 - * $RobCo_OS:  system:terminal_menu
+2024-07-29 20:45:47 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-29 20:45:49 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-29 20:45:49 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-29 20:45:53 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:45:57 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-29 20:46:08 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:46:12 - * $RobCo_OS:  system:         * @returning < return
+2024-07-29 20:46:13 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-29 20:46:17 - * $RobCo_OS:  system:      * @accessexit_m
+2024-07-29 20:46:17 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-30 08:35:53 - * $RobCo_OS:  system:start_up
+2024-07-30 08:35:57 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 08:36:00 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 08:36:02 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 08:36:02 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 08:36:06 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 08:36:22 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-30 08:37:15 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 08:37:20 - * $RobCo_OS:  system:         * @protected.sys(setting):username_m
+2024-07-30 08:37:22 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 08:37:28 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 08:37:28 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 08:37:37 - * $RobCo_OS:  system:      * @accessrestart_m
+2024-07-30 08:37:37 - * $RobCo_OS:  system:         * @restarting terminal.py /// override=logon.F
+2024-07-30 08:37:46 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+ 
+===============================================================================================
+ 
+2024-07-30 08:37:53 - * $RobCo_OS:  system:start_up
+2024-07-30 08:37:57 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 08:38:04 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 08:38:06 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 08:38:06 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 08:38:10 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+ 
+===============================================================================================
+ 
+2024-07-30 08:41:28 - * $RobCo_OS:  system:start_up
+2024-07-30 08:41:32 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 08:41:34 - * $RobCo_OS:  system:   * @accesshelp_m
+2024-07-30 08:41:53 - * $RobCo_OS:  system:   * @exit()terminal.py
+2024-07-30 08:41:53 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-30 13:00:19 - * $RobCo_OS:  system:start_up
+2024-07-30 13:00:23 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:00:31 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:00:34 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:00:34 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 13:00:38 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:00:46 - * $RobCo_OS:  system:      * @accesslogout_m
+2024-07-30 13:00:46 - * $RobCo_OS:  system:         * @logout user:admin
+2024-07-30 13:00:54 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:00:57 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:01:01 - * $RobCo_OS:  system:   * main_terminal > incorrect(denied)
+2024-07-30 13:01:04 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:01:07 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:01:07 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 13:01:11 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:01:23 - * $RobCo_OS:  system:      * @accesssettings_m
+ 
+===============================================================================================
+ 
+2024-07-30 13:02:23 - * $RobCo_OS:  system:start_up
+2024-07-30 13:02:27 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:02:30 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:02:32 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:02:32 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 13:02:36 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:02:42 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-30 13:02:49 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:02:55 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+ 
+===============================================================================================
+ 
+2024-07-30 13:07:18 - * $RobCo_OS:  system:start_up
+2024-07-30 13:07:22 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:07:27 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:07:30 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:07:30 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 13:07:35 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:07:40 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-30 13:08:00 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:08:07 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:08:08 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:08:15 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:08:15 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:08:18 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:08:22 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:08:23 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:08:26 - * $RobCo_OS:  system:      * @accesssys-logs_m
+2024-07-30 13:08:59 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:08:59 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:09:06 - * $RobCo_OS:  system:      * @accesslogout_m
+2024-07-30 13:09:07 - * $RobCo_OS:  system:         * @logout user:admin
+2024-07-30 13:09:14 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:09:14 - * $RobCo_OS:  system:   * @exit()terminal.py
+2024-07-30 13:09:14 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-30 13:11:29 - * $RobCo_OS:  system:start_up
+2024-07-30 13:11:33 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:13:08 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:13:12 - * $RobCo_OS:  system:   * main_terminal > incorrect(denied)
+2024-07-30 13:13:15 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:13:18 - * $RobCo_OS:  system:   * main_terminal > incorrect(denied)
+2024-07-30 13:13:24 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:13:28 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:13:28 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-07-30 13:13:33 - * $RobCo_OS:  system:      * @loadedmain_menuDIR
+2024-07-30 13:13:43 - * $RobCo_OS:  system:      * @accesssettings_m
+2024-07-30 13:13:49 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:14:03 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:14:04 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:14:15 - * $RobCo_OS:  system:         * @returning < return
+2024-07-30 13:14:15 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-07-30 13:14:17 - * $RobCo_OS:  system:         * @returning < return
+ 
+===============================================================================================
+ 
+2024-07-30 13:27:52 - * $RobCo_OS:  system:start_up
+2024-07-30 13:27:56 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:29:33 - * $RobCo_OS:  system:   * @accesshelp_m
+2024-07-30 13:29:57 - * $RobCo_OS:  system:   * @exit()terminal.py
+2024-07-30 13:29:57 - * $RobCo_OS:  system:         * @exiting terminal.py (os_e)
+ 
+===============================================================================================
+ 
+2024-07-30 13:31:55 - * $RobCo_OS:  system:start_up
+2024-07-30 13:31:59 - * $RobCo_OS:  system:terminal_menu
+2024-07-30 13:32:01 - * $RobCo_OS:  system:   * @logon user:admin
+2024-07-30 13:32:03 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-07-30 13:32:03 - * $RobCo_OS:  system:      * logged-on user:admin
