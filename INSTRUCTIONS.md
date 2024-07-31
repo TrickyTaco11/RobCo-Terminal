@@ -71,8 +71,8 @@ In this terminal you can prompt simple commands; a list of commands are shown wh
 <img width="1068" alt="Screenshot 2024-07-31 at 9 51 25 AM" src="https://github.com/user-attachments/assets/a794772b-f121-4210-9e32-03c310dc724e">
 
 
-In this basic terminal you can logon to the main admin terminal via prompting: 'logon (username)', this will then ask you for your password displayed 
-in hashes(*).
+In this basic terminal you can logon to the main admin terminal via prompting: 'logon (username)', this will then ask you for your password displayed in hashes(*).
+The logon and password are automatically set to 'admin' and '1234'.
 <img width="1065" alt="Screenshot 2024-07-31 at 9 53 15 AM" src="https://github.com/user-attachments/assets/cc0fd9fe-5708-4d4b-9433-4a9133ba47fb">
 OR you can hack your way in by typing the prompt below!
 <img width="1068" alt="Screenshot 2024-07-31 at 9 56 36 AM" src="https://github.com/user-attachments/assets/dd7e2efe-67d0-4308-be79-0aa87f197598">
