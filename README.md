@@ -126,27 +126,50 @@ Some of the main menu commands:
 - There are still some bugs and 'IN PROGRESS' sections to this project, the code may not be the fanciest but it works for the time being, I will clean up the code for every major version released.
 
 ### Imports For Script
-Repeat for all:
- ```
-   pip3 install simple-term-menu
    ```
-All imports:
- ```
-simple-term-menu
-subprocess
-datetime
-platform
-logging
-getpass
-shutil
-socket
-random
-string
-bcrypt
-getch
-time
-sys
-os
+   pip install simple-term-menu
+   ```
+   ```
+   pip install subprocess
+   ```
+   ```
+   pip install datetime
+   ```
+   ```
+   pip install platform
+   ```
+   ```
+   pip install logging
+   ```
+   ```
+   pip install getpass
+   ```
+   ```
+   pip install shutil
+   ```
+   ```
+   pip install socket
+   ```
+   ```
+   pip install random
+   ```
+   ```
+   pip install string
+   ```
+   ```
+   pip install bcrypt
+   ```
+   ```
+   pip install getch
+   ```
+   ```
+   pip install time
+   ```
+   ```
+   pip install sys
+   ```
+   ```
+   pip install os
    ```
 
 ## Contributing
