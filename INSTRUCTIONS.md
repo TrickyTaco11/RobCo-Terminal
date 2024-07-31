@@ -116,7 +116,7 @@ In this you will be able to see your CPU usage, Memory, Hard drive, Network and 
 
 <img width="1066" alt="Screenshot 2024-07-31 at 1 50 50 PM" src="https://github.com/user-attachments/assets/f48dce29-74bb-4fe1-adad-da2059c38030">
 
-You are also given an= menu of choices to choose from:
+You are also given a menu of choices to choose from:
 <img width="1059" alt="Screenshot 2024-07-31 at 1 50 59 PM" src="https://github.com/user-attachments/assets/59597665-a827-4ffd-9e2f-13210d734a25">
 
 **View System Performance Report**:
