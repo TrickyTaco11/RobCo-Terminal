@@ -8,3 +8,4 @@
  view f- [filename]                   | views a file from within the terminalvx directory
  view p- [path/to/file]               | views a file from a path within the whole computer
  clear                                | clears the terminal screen
+ credits                              | opens the credits to RobCo Terminal

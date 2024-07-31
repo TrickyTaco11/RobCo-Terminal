@@ -4,6 +4,7 @@
 #
 # Based from Fallout 3 and 4's terminal system while taking inspiration from old CRT terminals from the 80's.
 # This project is designed to run in terminal or a terminal emulator, preferably in 'cool-retro-term'.
+# cd /Users/trickytaco11/PycharmProjects/terminalv4
 #
 #
 #
@@ -53,11 +54,14 @@ systemLogLOG = "system/system-logs.log"
 # Other txt
 msis = "system/msis.txt"
 
+maintenanceLogTXT = 'system/maintenance/maintenance-log.txt'
+maintenanceReqTXT = 'system/maintenance/maintenance-requests.txt'
+
 # Reading txt
 with open(UserTXT, "r") as userFile:
     user = userFile.readline().strip("\n")
 
-with open("user_info/password.txt", "rb") as file:
+with open(PasswordTXT, "rb") as file:
     encrypted_password_from_file = file.read()
 
 with open(credTXT, "r") as credFile:
@@ -71,6 +75,12 @@ with open(securitylvlTXT, "r") as securityLvlFile:
 
 with open(securityrlvlTXT, "r") as securityLvlRRFile:
     securityLvlRR = securityLvlRRFile.readline().strip("\n")
+
+with open(maintenanceLogTXT, 'r') as maintenanceLOGFile:
+    maintenanceLog = maintenanceLOGFile.readline().strip("\n")
+
+with open(maintenanceLogTXT, 'r') as maintenanceREQFile:
+    maintenanceReq = maintenanceREQFile.readline().strip("\n")
 
 # Directories
 userInfo_dir = "user_info"
@@ -102,6 +112,9 @@ os.makedirs(system_dir, exist_ok=True)
 
 backup_dir = "backup_data"
 os.makedirs(backup_dir, exist_ok=True)
+
+maintenance_dir = "maintenance"
+os.makedirs(maintenance_dir, exist_ok=True)
 
 # Paths
 paths = [
@@ -136,7 +149,7 @@ progressI = "- IN PROGRESS - ".center(centre, "-")
 
 # System
 clear = lambda: os.system('clear')
-softwareV = "v4.1"
+softwareV = "v4.2"
 server = "system/server-system.txt"
 backup_location = backup_dir
 
@@ -641,8 +654,8 @@ def slide_up():
 
 
 def slide_by_line(filename, delay):
-    with open(filename, 'r') as file:
-        for line1 in file:
+    with open(filename, 'r') as File:
+        for line1 in File:
             print(line1, end='')  # Print the line without adding an extra newline
             time.sleep(delay)
 
@@ -1677,11 +1690,60 @@ def security_main():
 
 # Maintenance
 def maintenance_main():
-    robco_interface(print)
+    def maintenance_log():
+        while True:
+            robco_interface(print)
 
-    header_charp("MAINTENANCE REQUESTS/LOG", "-")
-    charp(progressI)
-    back(3, 6)
+            header_print("MAINTENANCE REQUESTS/LOG", "-")
+            charp("Maintenance Logs:")
+            empty()
+
+            maintChoice = ["Main Log", "Request Log", "Return"]
+            maintChoice_menu = TerminalMenu(maintChoice)
+            maint_entry_index = maintChoice_menu.show()
+            selectionMaint = maintChoice[maint_entry_index]
+            if selectionMaint == "Main Log":
+                slide_by_line(maintenanceLogTXT, delay=0.05)
+                empty()
+                back(3, 6)
+
+            if selectionMaint == "Request Log":
+                slide_by_line(maintenanceReqTXT, delay=0.05)
+                empty()
+                back(3, 6)
+
+            if selectionMaint == "Return":
+                return_menu(3, 6)
+                break
+
+    def maintenance_req():
+        robco_interface(print)
+
+        header_print("MAINTENANCE REQUESTS/LOG", "-")
+        input_char("New request: ")
+        requestM = input("")
+        with open(maintenanceReqTXT, 'a') as File:
+            File.write(f"New Maintenance Request: {requestM}\n")
+        back(3, 6)
+
+    while True:
+        robco_interface(print)
+
+        header_charp("MAINTENANCE REQUESTS/LOG", "-")
+        empty()
+
+        choice = ["View Maintenance Logs", "Request a Maintenance Log", "Return"]
+        choice_menu = TerminalMenu(choice)
+        entry_index = choice_menu.show()
+        selection = choice[entry_index]
+        if selection == "View Maintenance Logs":
+            maintenance_log()
+        if selection == "Request a Maintenance Log":
+            maintenance_req()
+        if selection == "Return":
+            return_menu(3, 6)
+
+            break
 
 
 # - - - - - Main code
@@ -1763,7 +1825,7 @@ def main_code():
             exit_menu()
         if selection == "[LOGOUT]      - Logout of Terminal":
             sys_log2(lineSection, 12, 'logout_m')
-            sys_log2(lineSection + 1, 17, currentUser)
+            sys_log2(lineSection + 1, 17, user)
             clear()
 
             exit_info("LOGGING OUT OF TERMINAL")
@@ -1800,7 +1862,7 @@ while True:
 
     input_char("> ")
     terminalInput = input("")
-    if terminalInput == "logon " + user:
+    if terminalInput == 'logon ' + user:
         currentUser = user
         sys_log2(1, 16, currentUser)
         empty()
@@ -1845,6 +1907,13 @@ while True:
             if InputCOMMANDline2 == "set halt restart/maint":
                 sys_log2(2, 81, "")
                 empty()
+                with open(maintenanceLogTXT, 'a') as File:
+                    File.write(f"{currentTime}: Maintenance Log: \n"
+                               "Initialising Robco Industries(TM) MF Boot Agent v2.3.0 \nRETROS BIOS "
+                               "\nRBIOS-4.02.08.00 "
+                               "52EE5.E7.E8 \nCopyright 2201-2203 Robco Ind. \nUppermem: 64 KB \nRoot (5A8) "
+                               "\nMaintenance Mode\n. \n. "
+                               )
 
                 charp("Initialising Robco Industries(TM) MF Boot Agent v2.3.0 \nRETROS BIOS \nRBIOS-4.02.08.00 "
                       "52EE5.E7.E8 \nCopyright 2201-2203 Robco Ind. \nUppermem: 64 KB \nRoot (5A8) \nMaintenance Mode\n")
@@ -1909,4 +1978,11 @@ while True:
         header_charp("WELCOME TO ROBCO INDUSTRIES (TM) TERMLINK", " ")
         charp("capslock-input set: off")
         empty()
+    if terminalInput == 'credits':
+        empty()
+
+        charp("Created by TrickTaco11 2024 \nThanks to Bethesda Softworks "
+              "for inspiration on the Fallout-style RobCo Terminal! \n"
+              "Licensed by MIT \n"
+              "https://github.com/TrickyTaco11/RobCo-Terminal \n")
     handle_command(terminalInput)
