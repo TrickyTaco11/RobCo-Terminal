@@ -83,6 +83,7 @@ After you have logged in you will be sent to the 'Admin Portal'. This is where y
 I will show you an example of using the terminal Entry Log; this works the same for the Data Archive, Security Logs and Emergency Protocols.
 In each of these you can, create, view and clear different terminal entries.
 
+## Entry Logs
 ***Entry Log***
 This is the entry log main page, here you can access all the different options.
 <img width="1061" alt="Screenshot 2024-07-31 at 10 42 04 AM" src="https://github.com/user-attachments/assets/09c8ffb0-bf12-4b68-87ab-d6a6698b49d6">
@@ -104,6 +105,37 @@ From here you will be asked to select an entry to delete, followed by a confirma
 
 <img width="333" alt="Screenshot 2024-07-31 at 10 46 19 AM" src="https://github.com/user-attachments/assets/68806d50-8c78-41fe-a2cd-0ce2179ace8b">
 <img width="473" alt="Screenshot 2024-07-31 at 10 46 25 AM" src="https://github.com/user-attachments/assets/60e4e713-edaf-4511-9390-73ac7bc17bcc">
+
+
+## System Logs
+The system-log is a log file that tracks every movement you make (i.e. if you pressed a return button, it will show in the log that you did. If you accessed your settings it will log it as is.). Some sections are redacted from the log like the password section of the settings, it will show that it has been 'protected:sys(setting)', this is for privacy reasons. This file can be cleared/reset using; 'set terminal/system-logs' ENTER, then: set 'file/overwrite=clear'.
+
+
+## System Diagnostics
+In this you will be able to see your CPU usage, Memory, Hard drive, Network and Power supply. You are also given an error log, which scans your computer for errors and logs them as so. 
+
+<img width="1066" alt="Screenshot 2024-07-31 at 1 50 50 PM" src="https://github.com/user-attachments/assets/f48dce29-74bb-4fe1-adad-da2059c38030">
+
+You are also given an= menu of choices to choose from:
+<img width="1059" alt="Screenshot 2024-07-31 at 1 50 59 PM" src="https://github.com/user-attachments/assets/59597665-a827-4ffd-9e2f-13210d734a25">
+
+**View System Performance Report**:
+<img width="1059" alt="Screenshot 2024-07-31 at 1 54 26 PM" src="https://github.com/user-attachments/assets/1323dd4c-4f3a-4bdb-9685-d638c460996b">
+This provides you with your CPU Usage and Memory Usage. 
+
+**Backup Data**:
+This option will back-up all of your directories and files within the Terminalv(x), these will be backed up and moved to a new directory labeled 'backup_data'. This will keep and save your work, these can be accessed using 'view p- path/to/file' in the basic terminal.
+
+**Reboot System**:
+This option will reboot your operating-system. Your full computer.
+
+
+## Contacts
+Contacts is currently a work in progress.
+This feature in theory; will allow other users running the Terminal script to communicate between one another. This will also allow people to send and recieve emails from one-another, acting as your mail library.
+
+## RESTART
+The restart function on the Admin Portal allows users to prompt a quick re-log on the project without having to sign back in.
 
 ## Contributing
 
