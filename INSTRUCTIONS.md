@@ -8,6 +8,7 @@ This instruction manual should surely help you understand the basics, and the ad
    ```
    git clone https://github.com/TrickyTaco11/RobCo-Terminal.git
    ```
+   ^^ or download the <code> / release!
 2. **Install the Libraries**:
    ```
    pip install simple-term-menu
