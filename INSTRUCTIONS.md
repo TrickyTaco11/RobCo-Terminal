@@ -57,7 +57,7 @@ This instruction manual should surely help you understand the basics, and the ad
    ```
 4. **Navigate to the project directory**:
    ```
-   path/to/RobCo-Terminal-4.0
+   cd path/to/RobCo-Terminal-4.0
    ```
 5. **Run the terminal application**:
    ```
