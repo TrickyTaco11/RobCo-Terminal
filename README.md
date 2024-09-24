@@ -5,9 +5,9 @@ Welcome to the ROBCO INDUSTRIES (TM) TERMLINK! This terminal emulator is inspire
 
 I recommend using 'Cool-Retro-Term', terminal emulator by: Swordfish90 https://github.com/Swordfish90/cool-retro-term/tree/1.2.0
 
-The centre of the screen for the script is set in the 'Terminal.py' file line: ~135.
+The centre of the screen for the script is set in the 'var_RobCo.py' file line: 129.
 The current centerLine is set to 95, this is because that's the size of my CRT display.
-This script was made for Raspberry Pi OS, so this will indeed work on Raspberry Pi, Mac/Apple, and Linux. Windows is currently in development.
+This script was made for Raspberry Pi OS, so this will indeed work on Raspberry Pi, Mac/Apple, Linux, and Windows (NOTE! Windows is still in development and may not run properly).
 
 The logon is set to 'admin' with the password being '1234', these can be changed in the settings section of the admin-terminal menu. 
 
