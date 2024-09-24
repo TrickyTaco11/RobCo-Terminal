@@ -130,9 +130,6 @@ Some of the main menu commands:
    pip install simple-term-menu
    ```
    ```
-   pip install subprocess
-   ```
-   ```
    pip install datetime
    ```
    ```
@@ -143,9 +140,6 @@ Some of the main menu commands:
    ```
    ```
    pip install getpass
-   ```
-   ```
-   pip install shutil
    ```
    ```
    pip install socket
