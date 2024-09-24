@@ -1,0 +1,228 @@
+2024-09-24 17:50:15 - * $RobCo_OS:  system:   * @clear'@system/system-logs.log
+ 
+===============================================================================================
+ 
+2024-09-24 18:35:23 - * $RobCo_OS:  system:start_up'
+2024-09-24 18:35:27 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 18:35:30 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 18:35:33 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 18:35:33 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 18:35:37 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:35:42 - * $RobCo_OS:  system:      * @access'msis_m
+2024-09-24 18:35:52 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:35:52 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:35:54 - * $RobCo_OS:  system:      * @access'entry-logs_m
+2024-09-24 18:35:56 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 18:35:57 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:35:59 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:35:59 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:36:03 - * $RobCo_OS:  system:      * @access'network_m
+2024-09-24 18:36:38 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:36:38 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:36:42 - * $RobCo_OS:  system:      * @access'restart_m
+ 
+===============================================================================================
+ 
+2024-09-24 18:36:51 - * $RobCo_OS:  system:start_up'
+2024-09-24 18:36:55 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 18:36:59 - * $RobCo_OS:  system:   * @access'help_m
+ 
+===============================================================================================
+ 
+2024-09-24 18:52:21 - * $RobCo_OS:  system:start_up'
+2024-09-24 18:52:25 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 18:52:28 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 18:52:30 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 18:52:30 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 18:52:34 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:52:39 - * $RobCo_OS:  system:      * @access'contacts_m
+2024-09-24 18:52:40 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 18:53:27 - * $RobCo_OS:  system:      * @access'entry-logs_m
+2024-09-24 18:53:29 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 18:53:32 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:53:34 - * $RobCo_OS:  system:         * @add'terminal-entry
+2024-09-24 18:53:43 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:53:44 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 18:53:49 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:53:50 - * $RobCo_OS:  system:         * @clear'terminal-entry
+2024-09-24 18:54:05 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 18:54:08 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 18:54:09 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 19:01:20 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 19:01:21 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 19:01:32 - * $RobCo_OS:  system:      * @access'contacts_m
+2024-09-24 19:01:33 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+ 
+===============================================================================================
+ 
+2024-09-24 19:01:48 - * $RobCo_OS:  system:start_up'
+2024-09-24 19:01:52 - * $RobCo_OS:  system:terminal_menu'
+ 
+===============================================================================================
+ 
+2024-09-24 19:28:41 - * $RobCo_OS:  system:start_up'
+2024-09-24 19:28:44 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 19:28:48 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 19:28:50 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 19:28:50 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 19:28:54 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 19:28:59 - * $RobCo_OS:  system:      * @access'restart_m
+2024-09-24 19:29:04 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 19:29:08 - * $RobCo_OS:  system:      * @access'restart_m
+ 
+===============================================================================================
+ 
+2024-09-24 19:29:12 - * $RobCo_OS:  system:start_up'
+2024-09-24 19:29:15 - * $RobCo_OS:  system:terminal_menu'
+ 
+===============================================================================================
+ 
+2024-09-24 20:00:32 - * $RobCo_OS:  system:start_up'
+2024-09-24 20:00:35 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 20:00:38 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 20:00:40 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 20:00:40 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 20:00:45 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:00:50 - * $RobCo_OS:  system:      * @access'diagnostics_m
+2024-09-24 20:05:14 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:05:14 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:05:35 - * $RobCo_OS:  system:      * @access'restart_m
+ 
+===============================================================================================
+ 
+2024-09-24 20:05:37 - * $RobCo_OS:  system:start_up'
+2024-09-24 20:05:41 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 20:05:43 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 20:05:45 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 20:05:45 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 20:05:49 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:06:00 - * $RobCo_OS:  system:      * @access'diagnostics_m
+2024-09-24 20:07:03 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:03 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:07:06 - * $RobCo_OS:  system:      * @access'network_m
+2024-09-24 20:07:11 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:11 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:07:13 - * $RobCo_OS:  system:      * @access'contacts_m
+2024-09-24 20:07:15 - * $RobCo_OS:  system:         * @add'terminal-contacts
+2024-09-24 20:07:41 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:44 - * $RobCo_OS:  system:         * @view'terminal-contacts
+2024-09-24 20:07:48 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:52 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:53 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:07:54 - * $RobCo_OS:  system:      * @access'entry-logs_m
+2024-09-24 20:07:55 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 20:07:57 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:59 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:07:59 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:08:01 - * $RobCo_OS:  system:      * @access'contacts_m
+2024-09-24 20:08:03 - * $RobCo_OS:  system:         * @clear'terminal-contacts
+2024-09-24 20:08:06 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:08:11 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 20:08:11 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 20:08:14 - * $RobCo_OS:  system:      * @access'restart_m
+ 
+===============================================================================================
+ 
+2024-09-24 20:08:19 - * $RobCo_OS:  system:start_up'
+2024-09-24 20:08:23 - * $RobCo_OS:  system:terminal_menu'
+ 
+===============================================================================================
+ 
+2024-09-24 22:16:44 - * $RobCo_OS:  system:start_up'
+2024-09-24 22:16:48 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 22:16:53 - * $RobCo_OS:  system:   * @clear'@screen
+ 
+===============================================================================================
+ 
+2024-09-24 23:01:03 - * $RobCo_OS:  system:start_up'
+2024-09-24 23:01:06 - * $RobCo_OS:  system:terminal_menu'
+2024-09-24 23:01:09 - * $RobCo_OS:  system:   * @access'help_m
+2024-09-24 23:01:16 - * $RobCo_OS:  system:   * @logon user:admin
+2024-09-24 23:01:19 - * $RobCo_OS:  system:   * main_terminal > correct(accessed)
+2024-09-24 23:01:19 - * $RobCo_OS:  system:      * logged-on user:admin
+2024-09-24 23:01:23 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:01:25 - * $RobCo_OS:  system:      * @access'msis_m
+2024-09-24 23:01:39 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:01:39 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:01:41 - * $RobCo_OS:  system:      * @access'entry-logs_m
+2024-09-24 23:01:44 - * $RobCo_OS:  system:         * @view'terminal-entry
+2024-09-24 23:01:45 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:01:47 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:01:47 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:01:49 - * $RobCo_OS:  system:      * @access'network_m
+2024-09-24 23:01:53 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:01:54 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:01:56 - * $RobCo_OS:  system:      * @access'cmd-Term_m
+2024-09-24 23:02:02 - * $RobCo_OS:  system:         * @function cmd:echo sup
+2024-09-24 23:02:05 - * $RobCo_OS:  system:         * @function cmd:nigger
+2024-09-24 23:02:12 - * $RobCo_OS:  system:         * @function cmd:BACK
+2024-09-24 23:02:13 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:02:14 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:02:17 - * $RobCo_OS:  system:      * @access'contacts_m
+2024-09-24 23:02:22 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:02:23 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:02:33 - * $RobCo_OS:  system:      * @access'inquire-sim_m
+2024-09-24 23:02:49 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:02:49 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:02:52 - * $RobCo_OS:  system:      * @access'data-archive_m
+2024-09-24 23:02:56 - * $RobCo_OS:  system:         * @view'archive-entry
+2024-09-24 23:02:57 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:02:58 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:02:59 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:03:01 - * $RobCo_OS:  system:      * @access'diagnostics_m
+2024-09-24 23:03:49 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:03:49 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:03:59 - * $RobCo_OS:  system:      * @access'sys-logs_m
+2024-09-24 23:04:05 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:05 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:04:08 - * $RobCo_OS:  system:      * @access'settings_m
+2024-09-24 23:04:12 - * $RobCo_OS:  system:         * @protected.sys(setting):username_m
+2024-09-24 23:04:14 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:14 - * $RobCo_OS:  system:         * @protected.sys(setting):username_m
+2024-09-24 23:04:16 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:26 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-09-24 23:04:33 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:34 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-09-24 23:04:41 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:42 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-09-24 23:04:44 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:45 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-09-24 23:04:52 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:52 - * $RobCo_OS:  system:         * @protected.sys(setting):password_m
+2024-09-24 23:04:54 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:57 - * $RobCo_OS:  system:         * @protected.sys(setting):cred_m
+2024-09-24 23:04:59 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:04:59 - * $RobCo_OS:  system:         * @protected.sys(setting):cred_m
+2024-09-24 23:05:01 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:05:05 - * $RobCo_OS:  system:         * @protected.sys(setting):clearance_m
+2024-09-24 23:05:07 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:05:07 - * $RobCo_OS:  system:         * @protected.sys(setting):clearance_m
+2024-09-24 23:05:09 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:05:14 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:05:14 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:05:21 - * $RobCo_OS:  system:      * @access'emergency_m
+2024-09-24 23:05:24 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:05:25 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:05:30 - * $RobCo_OS:  system:      * @access'emergency_m
+2024-09-24 23:06:20 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:06:20 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:06:28 - * $RobCo_OS:  system:      * @access'maintenance_m
+2024-09-24 23:06:37 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:06:51 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:01 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:04 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:12 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:17 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:19 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:23 - * $RobCo_OS:  system:         * @returning < return
+2024-09-24 23:07:24 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:08:10 - * $RobCo_OS:  system:      * @access'shutdown_m
+2024-09-24 23:08:13 - * $RobCo_OS:  system:         * 
+2024-09-24 23:08:13 - * $RobCo_OS:  system:         * @returning < /automatic system_choice
+2024-09-24 23:08:13 - * $RobCo_OS:  system:      * @loaded'main_menuDIR
+2024-09-24 23:08:17 - * $RobCo_OS:  system:      * @access'restart_m
+ 
+===============================================================================================
+ 
+2024-09-24 23:08:19 - * $RobCo_OS:  system:start_up'
+2024-09-24 23:08:22 - * $RobCo_OS:  system:terminal_menu'

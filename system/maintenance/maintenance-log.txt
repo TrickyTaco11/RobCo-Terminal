@@ -1,0 +1,46 @@
+06:43:53: Maintenance Log: 
+Initialising Robco Industries(TM) MF Boot Agent v2.3.0 
+RETROS BIOS 
+RBIOS-4.02.08.00 52EE5.E7.E8 
+Copyright 2201-2203 Robco Ind. 
+Uppermem: 64 KB 
+Root (5A8) 
+Maintenance Mode
+. 
+. 18:02:03: Maintenance Log: 
+Initialising Robco Industries(TM) MF Boot Agent v2.3.0 
+RETROS BIOS 
+RBIOS-4.02.08.00 52EE5.E7.E8 
+Copyright 2201-2203 Robco Ind. 
+Uppermem: 64 KB 
+Root (5A8) 
+Maintenance Mode
+. 
+. 18:04:28: Maintenance Log: 
+Initialising Robco Industries(TM) MF Boot Agent v2.3.0 
+RETROS BIOS 
+RBIOS-4.02.08.00 52EE5.E7.E8 
+Copyright 2201-2203 Robco Ind. 
+Uppermem: 64 KB 
+Root (5A8) 
+Maintenance Mode
+. 
+. 18:09:07: Maintenance Log: 
+Initialising Robco Industries(TM) MF Boot Agent v2.3.0 
+RETROS BIOS 
+RBIOS-4.02.08.00 52EE5.E7.E8 
+Copyright 2201-2203 Robco Ind. 
+Uppermem: 64 KB 
+Root (5A8) 
+Maintenance Mode
+. 
+. 18:12:15: Maintenance Log: 
+Initialising Robco Industries(TM) MF Boot Agent v2.3.0 
+RETROS BIOS 
+RBIOS-4.02.08.00 52EE5.E7.E8 
+Copyright 2201-2203 Robco Ind. 
+Uppermem: 64 KB 
+Root (5A8) 
+Maintenance Mode
+. 
+. 
